@@ -1,0 +1,32 @@
+{
+    "name": "jafar/symfony-mailchimp",
+    "version": "1.0.0",
+    "homepage": "https://github.com/jafaronly",
+    "description": "mailchimp libarary for symfony.",
+    "type": "library",
+    "keywords": ["symfony", "MailChimp"],
+    "license": "no usage restriction",
+    "authors": [
+        {
+            "name": "Jafar Jabr",
+            "email": "Jafaronly@yahoo.com",
+            "homepage": "https://github.com/jafaronly"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "MailChimp.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
